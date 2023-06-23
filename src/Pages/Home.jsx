@@ -4,7 +4,7 @@ import { Button, ButtonGroup } from '@chakra-ui/react'
 import { Text,Box } from '@chakra-ui/react'
 import axios from 'axios';
 function Home() {
-  const MICROSERVICE3_URL = "http://localhost:8082";
+  const MICROSERVICE3_URL = "https://drab-gray-bream-gear.cyclic.app";
     const getData=async ()=>{
       axios.get(`${MICROSERVICE3_URL}/export-csv`)
     .then(function (response) {

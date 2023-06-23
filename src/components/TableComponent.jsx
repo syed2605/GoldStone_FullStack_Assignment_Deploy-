@@ -27,7 +27,7 @@ import {
 function TableComponent() {
     const MICROSERVICE1_URL = "https://plain-capris-eel.cyclic.app";
     const MICROSERVICE2_URL = "https://tame-gold-hummingbird-wrap.cyclic.app";
-    const MICROSERVICE3_URL = "http://localhost:8082";
+    const MICROSERVICE3_URL = "https://drab-gray-bream-gear.cyclic.app";
     const [data,setData]=useState([]);
     const [id,setId]=useState();
     const [name,setName]=useState("");
